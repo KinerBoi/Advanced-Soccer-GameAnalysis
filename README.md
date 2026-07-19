@@ -21,6 +21,13 @@ Roboflow: https://universe.roboflow.com/roboflow-jvuqo/football-players-detectio
 Commit 1: Model trained and deployed on Roboflow, Roboflow and Gemini API Keys generated. 
           Next: Build workflow pipeline.  
 
+Commit/Day 2 (No Commit): 
+- Forked Dataset from Roboflow, trained model (RF-DETR, 82.1% mAP@50)
+- Detection block wired into workflow, Bounding box visualization working
+- Gemini block wired, predicitons injected, returning clean structured JSON data with team/formation/referee data
+- Cloud API endpoints made connecting Roboflow workflow to our repository
+
+
 ## Usage
 
 ## Credits / Acknowledgements

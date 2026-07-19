@@ -1,4 +1,23 @@
+# Environment variables
 .env
+
+# Virtual environments
+.venv/
+.venv312/
+
+# Dataset (pulled via script, not committed)
 dataset/
+
+# Python cache/bytecode
 __pycache__/
 *.pyc
+*.pyo
+
+# Jupyter checkpoints (in case you use notebooks later)
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code settings (optional — remove if you want to share workspace settings with collaborators)
+.vscode/
