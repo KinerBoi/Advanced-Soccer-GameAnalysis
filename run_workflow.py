@@ -18,10 +18,10 @@ result = client.run_workflow(
     workspace_name="kinish-sathish",
     workflow_id="football-players-detection-v1-logic",
     images={
-        "image": "YOUR_IMAGE.jpg" # Path to your image file
+        "image": "test_images/spainportugal232018.png" # Path to your image file
     },
     use_cache=True # Speeds up repeated requests
 )
 
 # 4. Get your results
-print(result)
+print(result[0]['json_parser_output_2'])

@@ -21,3 +21,9 @@ __pycache__/
 
 # VS Code settings (optional — remove if you want to share workspace settings with collaborators)
 .vscode/
+
+# extracted frames
+extracted_frames/
+
+#image/video files
+test_videos/
